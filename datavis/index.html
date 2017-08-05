@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sequences sunburst</title>
+    <script src="d3.js"></script>
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+    <link rel="stylesheet" type="text/css" href="sequences.css"/>
+  </head>
+  <body>
+    <div id="main">
+      <div class="blog-head">
+        <h1>My Post-Bootcamp Job Search by the Numbers</h1>
+        <h2>Getting ghosted and getting the job</h2>
+        <p class="meta"><em>Lucy Conklin July 25, 2017</em></p>
+      </div>
+      <div class="blog-main">
+        <p>In April 2017 I emerged, alive and exhausted, from the Backend program at the
+          Turing School for Software &amp; Design with a shiny new certificate
+          and a bunch of cool new skills. Over the course of my ensuing job
+          search, I have kept track of every application and how it progressed.
+          I'm a bit of a spreadsheet addict, so this was all stored in a Google
+          Sheet (
+          <a href="https://docs.google.com/spreadsheets/d/1eOfeJPBcO2GBdiHPwehh3tTTpZNq-fftrihsNHkksng/edit?usp=sharing">
+            sanitized, blank template
+          </a>
+          ). This way I could quickly check in on how my job search was
+          progressing and how close I was to my goal of 100 rejections
+          <a href="#rejections">
+            *
+          </a>. But gleaning insights from a spreadsheet is not always easy, so
+          I knew a visual would help me share my findings.</p>
+        <h3>Datavisualization</h3>
+        <p>My first thought was some kind of bar graph, but that seemed
+          uninspiring. Plus, I've been pushing myself to take advantage of my
+          new coding skills and go beyond a static 2D image with something
+          interactive. I generally stay far far away from pie graphs, but after
+          some sketching and brainstorming a pie actually seemed like the right
+          direction to go. So I went to the <a href="">d3 site</a> for some inspiration and
+          found <a href="">this sunburst example</a> being used for sequences of events, and
+          thought I would adapt it for the various lifecyles of my applications.
+        </p>
+        <div id="chart">
+          <div id="explanation" style="visibility: hidden;">
+            <span id="percentage"></span><br/>
+            <span id="sequence-description"></span>
+          </div>
+        </div>
+        <div id="sequence"></div>
+        <h3>Results</h3>
+        <p>The total time of my search was 101 days. Of the 38 applications I
+          submitted, about a third received no response whatsoever, 18% were
+          rejected right away, and another 18% received an automated reply that
+          the application had been received, but nothing further.
+        </p>
+        <p>That left 12 applications leading to interviews (9 over the phone,
+          3 in person). From there, I had 4 tech challenges, one pairing, and
+          one group interview via Google Hangout. I should mention that this
+          was an 8 person interview, which seemed insane to me. But, I was
+          pleasantly surprised as it was both enjoyable, and well orchestrated.
+        </p>
+        <p>In the end I got a total of 3 offers, and went with the one that was
+          the best culture and skill match.
+        </p>
+        <h3>Takeaways</h3>
+        <ol>
+          <li><strong>Yeah, this is a numbers game, but prioritize quality over
+            quantity.</strong> Most of the Indeed/Monster/big job aggregate
+            postings I applied to never even received a response, which is both
+            rude and disheartening. They are not a good ROI for your time, try
+            to talk to actual people.
+          </li>
+          <li><strong>Make connections at a steady rate,</strong> even if you
+            are getting interviews. There is definitely an ebb and flow with job
+            searching, so it helps to put good solid effort into 1-2 connections
+            every day rather than getting sloppy while applying to 7 jobs at once.
+          </li>
+        </ol>
+        <h3 id="rejections">About those Rejections</h3>
+        <p>I came across a concept a few years ago that was instrumental in
+          helping me reframe how I think about failure. It was based on
+          <a href="http://lithub.com/why-you-should-aim-for-100-rejections-a-year/">
+            a blog post about 100 rejections
+          </a>
+          . Basically, the writer asked his friend how she was able to get all
+          of these prestigious awards/honors/residencies and she told him about
+          her yearly goal of getting rejected 100 times. Although I fell far
+          short of 100 rejections, having a rejection quota really took the
+          sting out of every single one of those rejection emails.
+        </p>
+      </div>
+    </div>
+    <script type="text/javascript" src="sequences.js"></script>
+    <script type="text/javascript">
+      // Hack to make this example display correctly in an iframe on bl.ocks.org
+      d3.select(self.frameElement).style("height", "700px");
+  </script>
+  </body>
+</html>
