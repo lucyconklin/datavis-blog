@@ -7,21 +7,24 @@
     <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
     <link rel="stylesheet" type="text/css" href="sequences.css"/>
+    <link rel="stylesheet" type="text/css" href=""/>
   </head>
   <body>
     <div id="main">
       <div class="blog-head">
         <h1>My Post-Bootcamp Job Search by the Numbers</h1>
-        <h2>Getting ghosted and getting the job</h2>
-        <p class="meta"><em>Lucy Conklin July 25, 2017</em></p>
+        <p class="meta"><em>August 22, 2017</em></p>
       </div>
-      <div class="blog-main">
-        <p>In April 2017 I emerged, alive and exhausted, from the Backend program at the
-          Turing School for Software &amp; Design with a shiny new certificate
-          and a bunch of cool new skills. Over the course of my ensuing job
-          search, I have kept track of every application and how it progressed.
-          I'm a bit of a spreadsheet addict, so this was all stored in a Google
-          Sheet (
+      <div class="row">
+      <div class="blog-main col-md-8 col-md-offset-2">
+        <p>In April 2017 I emerged, alive and exhausted, from the Backend
+          program at the
+          <a href="https://www.turing.io/" target="blank">
+            Turing School for Software &amp; Design
+          </a> with a shiny new certificate and a bunch of cool new skills. Over
+          the course of my ensuing job search, I have kept track of every
+          application and how it progressed. I'm a bit of a spreadsheet addict,
+          so this was all stored in a GoogleSheet (
           <a href="https://docs.google.com/spreadsheets/d/1eOfeJPBcO2GBdiHPwehh3tTTpZNq-fftrihsNHkksng/edit?usp=sharing">
             sanitized, blank template
           </a>
@@ -32,15 +35,31 @@
           </a>. But gleaning insights from a spreadsheet is not always easy, so
           I knew a visual would help me share my findings.</p>
         <h3>Datavisualization</h3>
+        <p>Data visualization has always been a passion of mine. Before I went
+          back to school (again) I worked in the science communication field.
+          When I come across some data, I like to think about the best way to
+          visualize it. I also thought sharing the actual numbers from my job
+          search might help others on theirs. And another goal of this exercise
+          was to get more experience with the
+          <a href="https://d3js.org/" target="blank">
+            d3 library
+          </a>
+          for data visualization.
+        </p>
         <p>My first thought was some kind of bar graph, but that seemed
           uninspiring. Plus, I've been pushing myself to take advantage of my
           new coding skills and go beyond a static 2D image with something
           interactive. I generally stay far far away from pie graphs, but after
           some sketching and brainstorming a pie actually seemed like the right
-          direction to go. So I went to the <a href="">d3 site</a> for some inspiration and
-          found <a href="">this sunburst example</a> being used for sequences of events, and
+          direction to go. So I went to the d3 site for some inspiration and
+          found
+          <a href="https://bl.ocks.org/kerryrodden/766f8f6d31f645c39f488a0befa1e3c8">
+            this sunburst example
+          </a>
+          being used for sequences of events, and
           thought I would adapt it for the various lifecyles of my applications.
         </p>
+
         <div id="chart">
           <div id="explanation" style="visibility: hidden;">
             <span id="percentage"></span><br/>
@@ -48,10 +67,11 @@
           </div>
         </div>
         <div id="sequence"></div>
+
         <h3>Results</h3>
         <p>The total time of my search was 101 days. Of the 38 applications I
-          submitted, about a third received no response whatsoever, 18% were
-          rejected right away, and another 18% received an automated reply that
+          submitted, about a third received no response whatsoever, 21% were
+          rejected right away, and another 16% received an automated reply that
           the application had been received, but nothing further.
         </p>
         <p>That left 12 applications leading to interviews (9 over the phone,
@@ -61,7 +81,9 @@
           pleasantly surprised as it was both enjoyable, and well orchestrated.
         </p>
         <p>In the end I got a total of 3 offers, and went with the one that was
-          the best culture and skill match.
+          the best culture and skill match. Now I'm working at an Atlanta-based
+          startup called <a href="" target="blank">SingleOps</a> on their Rails
+          project management application.
         </p>
         <h3>Takeaways</h3>
         <ol>
@@ -76,7 +98,35 @@
             searching, so it helps to put good solid effort into 1-2 connections
             every day rather than getting sloppy while applying to 7 jobs at once.
           </li>
+          <li><h4>Check your calendar every morning before 9:00.</h4>
+            You'll probably have lots of calls, interviews, and meetings and
+            will need to keep them all straight. Don't make my mistake; I was
+            late to a remote pairing for a job I really liked, and you basically
+            can't recover from that. And if you make a big mistake, it's ok, it
+            happens. You'll still get a job.
+          </li>
+          <li><h4>"Could you describe the lifecycle of your code?"</h4> This
+            was my favorite question to ask in interviews. It was a great way
+            to find out how code is implemented and the kinds of tools you might
+            be using on the job. Plus, the developers I asked were generally
+            excited to share that kind of detail, and it often led to other
+            questions. Pretty much every time, the tools they mentioned were
+            very often ones I'd encountered at Turing.
+          </li>
+          <li><h4>Exercise/have hobbies/socialize.</h4> This is certainly a
+            'do as I say, not as I do' situation. Don't forget about all of
+            your other basic needs, and don't neglect self-care. It will make
+            the whole process much easier, and your loved ones will thank you.
+          </li>
         </ol>
+        <h3>Thank You</h3>
+        <p>This would not have been possible without the staff and students at
+          the Turing School, as well as my wonderful, supportive, and very
+          patient family. I would like to specifically thank Meg Stewart at
+          Turing for some much appreciated and timely advice, Ian Douglas for
+          his incredibly helpful coaching, resume review, and tech interview
+          tips, and my rejection buddy Jesse for keeping me accountable.
+        </p>
         <h3 id="rejections">About those Rejections</h3>
         <p>I came across a concept a few years ago that was instrumental in
           helping me reframe how I think about failure. It was based on

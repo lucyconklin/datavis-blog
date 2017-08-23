@@ -1,12 +1,12 @@
 # My Post-Bootcamp Job Search by the Numbers
-## clever tagline. Getting ghosted and getting ahead.
-Lucy Conklin July 25, 2017
+
+Lucy Conklin August 22, 2017
 
 In April 2017 I emerged, alive, from the Backend program at the Turing School for Software & Design with a shiny new certificate and a bunch of cool new skills. Over the course of my ensuing job search, I have kept track of every application and how it progressed. I'm a bit of a spreadsheet addict, so this was all stored in a Google Sheet ([sanitized, blank template](https://docs.google.com/spreadsheets/d/1eOfeJPBcO2GBdiHPwehh3tTTpZNq-fftrihsNHkksng/edit?usp=sharing)). This way I could quickly check in on how my job search was progressing and how close I was to my goal of 100 rejections*. But gleaning insights from a spreadsheet is not always easy, so I knew a visual would help me share my findings.
 
 ### Datavisualization
 
-Data visualization has always been a passion of mine. I have been working in the science communication field for about 4 years now, so when I come across some data, I like to think about the best way to visualize it. I also thought sharing the actual numbers from my job search might help others on theirs. And another goal of this exercise was to get more experience with the [d3 library](https://d3js.org/) for data visualization.
+Data visualization has always been a passion of mine. Before I went back to school (again) I worked in the science communication field. When I come across some data, I like to think about the best way to visualize it. I also thought sharing the actual numbers from my job search might help others on theirs. And another goal of this exercise was to get more experience with the [d3 library](https://d3js.org/) for data visualization.
 
 My first thought was some kind of bar graph, but that seemed uninspiring. Plus, I've been pushing myself to take advantage of my new coding skills and go beyond a static 2D image with something interactive. I generally stay far far away from pie graphs, but after some sketching and brainstorming a pie actually seemed like the right direction to go. So I went to the d3 website for some inspiration and found this [sunburst example](https://bl.ocks.org/kerryrodden/766f8f6d31f645c39f488a0befa1e3c8) being used for sequences of events, and thought I would adapt it for the various lifecyles of my applications.
 
@@ -14,9 +14,9 @@ My first thought was some kind of bar graph, but that seemed uninspiring. Plus, 
 
 The total time of my search was 101 days. Of the 38 applications I submitted, about a third received no response whatsoever, 18% were rejected right away, and another 18% received an automated reply that the application had been received, but nothing further.
 
-That left 12 applications leading to interviews (9 over the phone, 3 in person). From there, I had 4 tech challenges, one pairing, and one group interview via Google Hangout. I should mention that this was an 8 person interview, which seemed insane to me. But, I was pleasantly surprised as it was both enjoyable, and well orchestrated.
+That left 12 applications leading to interviews (9 over the phone, 3 in person). From there, I had 4 tech challenges, one pairing, and one group interview via Google Hangout. I should mention that this was an 8 person interview, which seemed insane to me. But, I was really impressed as it was somehow both enjoyable, and well orchestrated.
 
-In the end I got a total of 3 offers, and went with the one that was the best culture and skill match.
+In the end I got a total of 3 offers, and went with the one that was the best culture and skill match. Now I'm working at an Atlanta-based startup called [SingleOps]() on their Rails project management application.
 
 ### General Takeaways
 1. __Yeah, this is a numbers game, but prioritize quality over quantity__. Most of the Indeed/Monster/big job aggregate postings I applied to never even received a response, which is both rude and disheartening. They are not a good ROI for your time, try to talk to actual people.
